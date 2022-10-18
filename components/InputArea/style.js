@@ -9,7 +9,7 @@ export const TextArea = styled.TextInput`
         height: 100%;
         padding-left: 10px;
         border-radius: 3px;
-        text-align-vertical: top;
+        text-align-vertical: top; 
         margin-bottom: 20px;
         
     `

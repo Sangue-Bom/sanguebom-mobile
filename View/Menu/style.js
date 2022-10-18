@@ -3,6 +3,7 @@ import styled from "styled-components/native";
 export const Container = styled.SafeAreaView`
     display: flex;
     flex-direction: column;
+    background-color: #f0f0f5;
     align-items: center;
     justify-content: center;
     width: 100%;

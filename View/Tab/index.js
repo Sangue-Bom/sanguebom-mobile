@@ -19,6 +19,7 @@ function RankingScreen() {
 
 export default function Tabs({ navigation, route }) {
     const { user } = route.params;
+    console.log(user)
 
     
 
@@ -121,11 +122,7 @@ export default function Tabs({ navigation, route }) {
                 component={ProfileScreen}
                 initialParams={
                     {
-                        user: {
-                            name: "Ingrid Bittencourt",
-                            bio: "magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum",
-                            email: "ingridinha@gmail.com",
-                        }
+                        user
                     }
                 }
                 options={{

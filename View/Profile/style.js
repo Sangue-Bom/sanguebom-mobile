@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.View`
     display: flex;
+    background-color: #f0f0f5;
     flex-direction: column;
     align-items: center;
     justify-content: center;

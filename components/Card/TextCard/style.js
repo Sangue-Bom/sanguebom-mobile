@@ -4,10 +4,12 @@ export const Card = styled.View`
     width: 85%;
     flex-direction: row;
     display: flex;
+    background-color: #ffffff;
     padding: 5px;
     border-radius: 8px;
-    border: 1px solid #ff5757;
+    /* border: 1px solid #ff5757; */
     margin-bottom: 20px;
+    box-shadow: 4px 4px 20px #00000005;
 `
 
 export const CardTitle = styled.Text`

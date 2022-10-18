@@ -21,7 +21,8 @@ export const BaseButton = styled.TouchableOpacity`
     margin:0;
     padding:0;
     margin-left: 5px;
-
+    // border-radius: 100px;
+    color: #ffffff;
     `}
 `
 
